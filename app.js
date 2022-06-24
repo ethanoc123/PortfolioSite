@@ -52,4 +52,11 @@ const hideMobileMenu = () => {
 };
 
 menuLinks.addEventListener("click", hideMobileMenu);
-navLogo.addEventListener("click", hideMobileMenu);
+
+document.getElementById("logo-linkedin").onclick = function profileLinkOne() {
+  location.href = "https://www.linkedin.com/in/ethan-o-connor-2a6a0375/";
+};
+
+document.getElementById("logo-github").onclick = function profileLinkTwo() {
+  location.href = "https://github.com/ethanoc123";
+};
